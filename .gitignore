@@ -63,3 +63,7 @@ $RECYCLE.BIN/
 *.lnk
 .idea/workspace.xml
 .idea/workspace.xml
+java-example/build/resources/test/Test.txt
+.idea/workspace.xml
+java-example/src/test/java/ru/stga/training/selenium/GetText.java
+java-example/src/test/resources/Test.txt
