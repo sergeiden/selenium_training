@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.HasCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -31,7 +32,7 @@ public class TestBase {
       return;
     }
 
-    driver = new ChromeDriver();
+    driver = new InternetExplorerDriver();
     tlDriver.set(driver);
     wait = new WebDriverWait(driver, 10);
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -49,8 +50,8 @@ public class TestBase {
 
   @After
   public void stop() {
-    //driver.quit();
-    //driver = null;
+    driver.quit();
+    driver = null;
   }
 
 
