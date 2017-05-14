@@ -32,7 +32,7 @@ public class TestBase {
       return;
     }
 
-    driver = new InternetExplorerDriver();
+    driver = new ChromeDriver();
     tlDriver.set(driver);
     wait = new WebDriverWait(driver, 10);
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
