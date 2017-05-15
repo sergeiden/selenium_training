@@ -18,7 +18,7 @@ public class ZonesSortingTest extends TestBase {
 
   public void testZonesSorting() {
 
-    login();
+    adminLogin();
     driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
     List<WebElement> countries = driver.findElements(By.cssSelector("#main td a:not([title=Edit]"));
     int index = 0;

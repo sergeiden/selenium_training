@@ -40,12 +40,28 @@ public class TestBase {
             new Thread(() -> { driver.quit(); driver = null; }));
   }
 
-  public void login(){
+
+
+  public void adminLogin(){
     driver.get("http://localhost/litecart/admin/");
     driver.findElement(By.name("username")).sendKeys("admin");
     driver.findElement(By.name("password")).sendKeys("admin");
     driver.findElement(By.cssSelector(".btn[name=login]")).click();
     driver.findElement(By.id("box-apps-menu-wrapper"));
+  }
+
+  protected void click(By locator) {
+    driver.findElement(locator).click();
+  }
+  protected void type(By locator, String text) {
+    click(locator);
+    if (text != null) {
+      String existingText = driver.findElement(locator).getAttribute("value");
+      if (!text.equals(existingText)) {
+        driver.findElement(locator).clear();
+        driver.findElement(locator).sendKeys(text);
+      }
+    }
   }
 
   @After
