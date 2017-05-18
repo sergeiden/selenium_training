@@ -1,11 +1,9 @@
 package ru.stga.training.selenium;
 
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.HasCapabilities;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -34,15 +32,17 @@ public class TestBase {
 
     driver = new ChromeDriver();
     tlDriver.set(driver);
-    wait = new WebDriverWait(driver, 10);
-    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    wait = new WebDriverWait(driver, 5);
+    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     Runtime.getRuntime().addShutdownHook(
-            new Thread(() -> { driver.quit(); driver = null; }));
+            new Thread(() -> {
+              driver.quit();
+              driver = null;
+            }));
   }
 
 
-
-  public void adminLogin(){
+  public void adminLogin() {
     driver.get("http://localhost/litecart/admin/");
     driver.findElement(By.name("username")).sendKeys("admin");
     driver.findElement(By.name("password")).sendKeys("admin");
@@ -53,6 +53,7 @@ public class TestBase {
   protected void click(By locator) {
     driver.findElement(locator).click();
   }
+
   protected void type(By locator, String text) {
     click(locator);
     if (text != null) {
@@ -64,14 +65,20 @@ public class TestBase {
     }
   }
 
+  public boolean isElementPresent(By locator) {
+    try {
+      driver.findElement(locator);
+      return true;
+    } catch (NoSuchElementException ex) {
+      return false;
+    }
+  }
+
   @After
   public void stop() {
     driver.quit();
     driver = null;
   }
-
-
-
 
 
 }
