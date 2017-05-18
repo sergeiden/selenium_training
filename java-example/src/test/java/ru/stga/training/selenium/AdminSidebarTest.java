@@ -15,18 +15,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by serg on 02.05.2017.
  */
-public class AdminSidebarTest {
-  private WebDriver driver;
-
-  private WebDriverWait wait;
-
-  @Before
-  public void start() {
-    driver = new ChromeDriver();
-    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-    wait = new WebDriverWait(driver, 5);
-
-  }
+public class AdminSidebarTest extends TestBase {
 
   @Test
   public void testAdminSidebar() {
@@ -57,11 +46,5 @@ public class AdminSidebarTest {
         }
       }
     }
-  }
-
-  @After
-  public void stop() {
-    driver.quit();
-    driver = null;
   }
 }

@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddProductsToCartTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddProductsToCartTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddProductsToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="343">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +84,8 @@
       <file leaf-file-name="AdminSidebarTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AdminSidebarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -152,11 +152,21 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="245">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPageProductStickersTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/MainPageProductStickersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -541,7 +551,6 @@
         <option value="$PROJECT_DIR$/java-example/build.gradle" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/LoginTest.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/MainPageProductStickersTest.java" />
-        <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AdminSidebarTest.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AdminSideBarTest2.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/ZonesSortingTest.java" />
@@ -551,8 +560,9 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/CountiesSoringTests.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/CountriesSoringTests.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddNewProductTest.java" />
-        <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/TestBase.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddProductsToCartTest.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/TestBase.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AdminSidebarTest.java" />
       </list>
     </option>
   </component>
@@ -739,33 +749,7 @@
       <recent name="D:\Devel\selenium_training\java-example\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddProductsToCartTest">
-    <configuration default="false" name="AddNewProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stga.training.selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.stga.training.selenium" />
-      <option name="MAIN_CLASS_NAME" value="ru.stga.training.selenium.AddNewProductTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AdminSidebarTest">
     <configuration default="false" name="AddProductsToCartTest.testAddProductToCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -856,6 +840,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.stga.training.selenium" />
       <option name="MAIN_CLASS_NAME" value="ru.stga.training.selenium.AddProductsToCartTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainPageProductStickersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.stga.training.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.stga.training.selenium" />
+      <option name="MAIN_CLASS_NAME" value="ru.stga.training.selenium.MainPageProductStickersTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1075,19 +1085,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AddNewProductTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest.testAddProductToCart" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AdminSidebarTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest.testAddProductToCart" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AdminSidebarTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MainPageProductStickersTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest.testAddProductToCart" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AdminSidebarTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AddNewProductTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AdminSidebarTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MainPageProductStickersTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AddProductsToCartTest.testAddProductToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -1105,21 +1115,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 20m 10s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 22m 16s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 29m 27s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 30m 46s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 32m 25s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 44m 11s.xml">
       <configuration name="AddProductsToCartTest" configurationId="JUnit" />
     </history-entry>
@@ -1135,10 +1130,25 @@
     <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 48m 52s.xml">
       <configuration name="AddProductsToCartTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 50m 17s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 16h 10m 10s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminSidebarTest - 2017.05.18 at 16h 12m 33s.xml">
+      <configuration name="AdminSidebarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdminSidebarTest - 2017.05.18 at 16h 13m 54s.xml">
+      <configuration name="AdminSidebarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageProductStickersTest - 2017.05.18 at 16h 10m 47s.xml">
+      <configuration name="MainPageProductStickersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1150,12 +1160,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39043382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39043382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2800852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2800852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111821085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1385,14 +1395,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/resources/Test_Duck.png" />
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/MainPageProductStickersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/ProductPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -1543,31 +1545,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AdminSidebarTest.java">
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddProductsToCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="343">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="245">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddProductsToCartTest.java">
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AdminSidebarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/MainPageProductStickersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -34,6 +34,8 @@ public class TestBase {
     tlDriver.set(driver);
     wait = new WebDriverWait(driver, 5);
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    WebDriver.Window window = driver.manage().window();
+    window.maximize();
     Runtime.getRuntime().addShutdownHook(
             new Thread(() -> {
               driver.quit();
