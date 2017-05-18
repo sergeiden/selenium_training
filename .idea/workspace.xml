@@ -72,8 +72,8 @@
       <file leaf-file-name="AddProductsToCartTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddProductsToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="394">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,7 +166,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1103,21 +1105,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 07m 28s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 16m 22s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 16m 53s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 18m 11s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 18m 57s.xml">
-      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 20m 10s.xml">
       <configuration name="AddProductsToCartTest" configurationId="JUnit" />
     </history-entry>
@@ -1133,10 +1120,25 @@
     <history-entry file="AddProductsToCartTest - 2017.05.18 at 11h 32m 25s.xml">
       <configuration name="AddProductsToCartTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 44m 11s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 46m 13s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 48m 02s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 48m 08s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddProductsToCartTest - 2017.05.18 at 12h 48m 52s.xml">
+      <configuration name="AddProductsToCartTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1412,7 +1414,7 @@
         <state relative-caret-position="289">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1475,7 +1477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1559,8 +1563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/ru/stga/training/selenium/AddProductsToCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="394">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

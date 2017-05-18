@@ -1,5 +1,6 @@
 package ru.stga.training.selenium;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 import static java.lang.Integer.parseInt;
+import static org.junit.Assert.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.attributeToBe;
 import static org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf;
 
@@ -42,6 +44,7 @@ public class AddProductsToCartTest extends TestBase {
       click(By.name(("remove_cart_item")));
       wait.until(stalenessOf(cartSummary));
     }
+    assertTrue(driver.findElements(By.name("remove_cart_item")).size() == 0);
   }
 }
 
