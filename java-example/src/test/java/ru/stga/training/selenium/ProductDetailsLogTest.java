@@ -1,10 +1,8 @@
 package ru.stga.training.selenium;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.logging.LogEntry;
 
 import java.util.List;
 

@@ -1,17 +1,16 @@
 package ru.stga.training.selenium;
 
+import net.lightbody.bmp.BrowserMobProxy;
+import net.lightbody.bmp.BrowserMobProxyServer;
+import net.lightbody.bmp.client.ClientUtil;
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -24,6 +23,7 @@ public class TestBase {
   public static ThreadLocal<EventFiringWebDriver> tlDriver = new ThreadLocal<>();
   public EventFiringWebDriver driver;
   public WebDriverWait wait;
+  public BrowserMobProxy proxy;
 
   public static class MyListener extends AbstractWebDriverEventListener {
 
@@ -34,7 +34,8 @@ public class TestBase {
 
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
-      System.out.println(by + " found");;
+      System.out.println(by + " found");
+      ;
     }
 
     @Override
@@ -52,7 +53,21 @@ public class TestBase {
       return;
     }
 
-    driver =  new EventFiringWebDriver(new ChromeDriver());
+    // start the proxy
+    proxy = new BrowserMobProxyServer();
+    proxy.start(0);
+
+    // get the Selenium proxy object
+    Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
+//    Proxy seleniumProxy = new Proxy().setHttpProxy("localhost:8888");
+
+    // configure it as a desired capability
+    DesiredCapabilities capabilities = new DesiredCapabilities();
+    capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+
+//    Proxy proxy = new Proxy();
+//    proxy.setHttpProxy("localhost:8888");
+    driver = new EventFiringWebDriver(new ChromeDriver(capabilities));
     driver.register(new MyListener());
     tlDriver.set(driver);
     wait = new WebDriverWait(driver, 5);
@@ -104,6 +119,4 @@ public class TestBase {
     driver.quit();
     driver = null;
   }
-
-
 }
