@@ -36,7 +36,7 @@ public class AddProductsToCartTest extends TestBaseOld {
       click(By.cssSelector(".logotype"));
       index++;
     }
-    click(By.cssSelector(".quantity"));
+    goToCart();
     List<WebElement> removeElements = driver.findElements(By.name("remove_cart_item"));
     for (WebElement element : removeElements) {
       WebElement cartSummary = driver.findElement(By.cssSelector("#order_confirmation-wrapper"));
@@ -44,6 +44,10 @@ public class AddProductsToCartTest extends TestBaseOld {
       wait.until(stalenessOf(cartSummary));
     }
     assertTrue(driver.findElements(By.name("remove_cart_item")).size() == 0);
+  }
+
+  private void goToCart() {
+    click(By.cssSelector(".quantity"));
   }
 }
 
