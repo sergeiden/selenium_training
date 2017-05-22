@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * Created by serg on 18.05.2017.
  */
-public class LinksNewWindowTest extends TestBase {
+public class LinksNewWindowTest extends TestBaseOld {
 
   @Test
 

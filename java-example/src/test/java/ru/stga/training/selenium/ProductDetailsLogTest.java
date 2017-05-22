@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by serg on 20.05.2017.
  */
-public class ProductDetailsLogTest extends TestBase{
+public class ProductDetailsLogTest extends TestBaseOld {
 
   @Test
 

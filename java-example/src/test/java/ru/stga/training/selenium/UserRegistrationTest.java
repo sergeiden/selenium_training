@@ -10,7 +10,7 @@ import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
 /**
  * Created by serg on 14.05.2017.
  */
-public class UserRegistrationTest extends TestBase {
+public class UserRegistrationTest extends TestBaseOld {
 
   @Test
 

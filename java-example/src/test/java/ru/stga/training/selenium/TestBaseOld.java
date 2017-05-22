@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by serg on 11.05.2017.
  */
-public class TestBase {
+public class TestBaseOld {
 
   public static ThreadLocal<EventFiringWebDriver> tlDriver = new ThreadLocal<>();
   public EventFiringWebDriver driver;

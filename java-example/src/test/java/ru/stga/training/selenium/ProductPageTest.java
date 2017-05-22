@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 /**
  * Created by serg on 12.05.2017.
  */
-public class ProductPageTest extends TestBase {
+public class ProductPageTest extends TestBaseOld {
 
   @Test
 

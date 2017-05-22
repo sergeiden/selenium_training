@@ -16,7 +16,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by serg on 11.05.2017.
  */
-public class CountriesSoringTests extends TestBase {
+public class CountriesSoringTests extends TestBaseOld {
 
   @Test
   public void testCountriesSorting() {

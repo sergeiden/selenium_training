@@ -9,7 +9,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 /**
  * Created by serg on 20.05.2017.
  */
-public class AddedProxy extends TestBase {
+public class AddedProxy extends TestBaseOld {
 
   @Test
   public void testProxy() {

@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by serg on 14.05.2017.
  */
-public class AddNewProductTest extends TestBase {
+public class AddNewProductTest extends TestBaseOld {
 
   @Test
 

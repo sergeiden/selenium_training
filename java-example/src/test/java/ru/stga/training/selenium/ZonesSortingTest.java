@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by serg on 12.05.2017.
  */
-public class ZonesSortingTest extends TestBase {
+public class ZonesSortingTest extends TestBaseOld {
 
   @Test
 
