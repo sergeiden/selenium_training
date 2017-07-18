@@ -112,7 +112,7 @@ public class TestBaseOld {
     } catch (NoSuchElementException ex) {
       return false;
     }
-  }
+}
 
   @After
   public void stop() {
